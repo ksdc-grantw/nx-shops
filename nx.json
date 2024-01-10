@@ -76,7 +76,7 @@
   "namedInputs": {
     "default": ["{projectRoot}/**/*", "sharedGlobals"],
     "sharedGlobals": [
-      "{workspaceRoot}/babel.config.json", 
+      "{workspaceRoot}/babel.config.json",
       "{workspaceRoot}/.github/workflows/ci.yml"
     ],
     "production": [
@@ -88,5 +88,6 @@
       "!{projectRoot}/src/test-setup.[jt]s"
     ]
   },
-  "parallel": 1
+  "parallel": 1,
+  "nxCloudAccessToken": "Y2Q4NmZhZmQtYTVkMy00YTBhLTkxYWEtMjNhMjA2ZTYyN2E1fHJlYWQtd3JpdGU="
 }
